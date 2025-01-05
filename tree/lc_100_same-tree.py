@@ -5,6 +5,10 @@
 #         self.left = left
 #         self.right = right
 class Solution:
+<<<<<<< HEAD
+=======
+    # time complexity O(n+m) n,m은 각각 p,q의 노드 갯 수
+>>>>>>> 6b1bd444f4c75c77e349bcdddf0fc04fffecf6c0
     def isSameTree(self, p: Optional[TreeNode], q: Optional[TreeNode]) -> bool:
         if p==None and q==None:
             return True
